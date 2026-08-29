@@ -2,6 +2,19 @@ import Navbar from "@/components/Navbar";
 import PostHero from "@/components/PostHero";
 import Image from "next/image";
 import Link from "next/link";
+import dynamic from "next/dynamic";
+
+const PreFooter = dynamic(() => import("@/components/PreFooter"), {
+  ssr: true,
+});
+
+const Services = dynamic(() => import("@/components/Services"), {
+  ssr: true,
+});
+
+const AboutUs = dynamic(() => import("@/components/AboutUs"), {
+  ssr: true,
+});
 
 export default function Home() {
   return (
@@ -9,7 +22,7 @@ export default function Home() {
       <Navbar/>
       <main className="w-full h-[70vh] relative bg-[#001233] flex items-center">
         <div className="bg-linear-100 from-[#001233] to-[#001233] absolute inset-0 w-full h-full z-10 opacity-[0.6]"></div>
-        <Image src={"/hero.svg"} alt="hero" fill className="object-cover"/>
+        <Image src={"/hero.svg"} alt="hero" fill className="object-cover" priority/>
         <div className="z-30 flex flex-col gap-1 w-full relative max-w-7xl mx-auto p-5 lg:p-10 2xl:p-0">
           <Image src={"/angel.svg"} width={30} height={30} alt="angel logo" className="w-20 h-20 lg:w-30 lg:h-30 -mx-4"/>
           <div>
@@ -32,6 +45,9 @@ export default function Home() {
         </div>
       </main>
       <PostHero/>
+      <Services/>
+      <AboutUs/>
+      <PreFooter/>
     </div>
   );
 }
