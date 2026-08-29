@@ -42,10 +42,10 @@ const items: Item[] = [
 
 const PreFooter = () => {
   return (
-    <section className="w-full bg-[#001233] text-white border border-[#D4AF37]/20 border-l-transparent border-r-transparent">
+    <section className="w-full bg-[#001233] text-white border-[1px] border-[#D4AF37]/20 border-l-transparent border-r-transparent">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 items-stretch justify-center lg:pl-5">
             {items.map((item: Item) => (
-                <div key={item.id} className="w-full h-full min-h-22.5 flex items-center justify-start lg:justify-center gap-3 px-5 py-5 border-b border-[#D4AF37]/20">
+                <div key={item.id} className="w-full h-full min-h-22.5 flex items-center justify-start lg:justify-center gap-3 px-5 py-5">
                     <Image
                         src={item.icon}
                         alt={item.title}
