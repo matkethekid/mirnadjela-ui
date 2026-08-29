@@ -16,6 +16,10 @@ const AboutUs = dynamic(() => import("@/components/AboutUs"), {
   ssr: true,
 });
 
+const Footer = dynamic(() => import("@/components/Footer"), {
+  ssr: true,
+});
+
 export default function Home() {
   return (
     <div className="w-full min-h-screen flex flex-col items-center mx-auto">
@@ -48,6 +52,7 @@ export default function Home() {
       <Services/>
       <AboutUs/>
       <PreFooter/>
+      <Footer/>
     </div>
   );
 }
