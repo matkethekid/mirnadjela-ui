@@ -10,7 +10,7 @@ const notoSerif = Noto_Serif({
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-[#001233] min-h-40 py-0">
+    <footer className="w-full bg-[#001233] min-h-40 py-0 px-3 lg:px-16">
         <div className="w-full mx-auto flex flex-col px-5 lg:px-10 py-2">
             <div className="flex flex-col md:flex-row w-full md:justify-between md:items-center">
                 <div className="flex flex-row lg:justify-center items-center">
