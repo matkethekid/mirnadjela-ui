@@ -22,7 +22,7 @@ interface Link {
 const links: Link[] = [
     { id: 0, name: "POČETNA", path: "/" },
     { id: 1, name: "O NAMA", path: "/onama" },
-    { id: 2, name: "USLUGE", path: "/usluge" },
+    { id: 2, name: "POGREBNE USLUGE", path: "/pogrebne-usluge" },
     { id: 3, name: "KONTAKT", path: "/kontakt" }
 ];
 
