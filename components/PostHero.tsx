@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 
 interface Item {
@@ -17,23 +16,28 @@ const items: Item[] = [
 
 const PostHero = () => {
   return (
-    <section className="w-full max-w-325 bg-white flex flex-col lg:flex-row py-10 justify-between items-center">
-        {items.map((item: Item, index: number) => (
-            <React.Fragment key={index}>
-                <div>
-                    <div className="flex flex-row gap-3">
-                        <Image src={item.icon} alt={item.text} width={25} height={25} />
-                        <div className="flex flex-col">
-                            <p>{item.title}</p>
-                            <p className="max-w-sm">{item.text}</p>
-                        </div>
+    <section className="w-full max-w-325 bg-white py-8 px-5 sm:px-8 lg:py-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+            {items.map((item: Item) => (
+                <div key={item.title} className="flex items-start gap-3 py-5 sm:px-6 lg:px-8 border-b border-[#D4AF37]/20 sm:odd:border-r lg:border-b-0 lg:not-last:border-r">
+                    <Image
+                        src={item.icon}
+                        alt={item.text}
+                        width={25}
+                        height={25}
+                        className="shrink-0 mt-1"
+                    />
+                    <div className="min-w-0">
+                        <p className="font-medium">
+                            {item.title}
+                        </p>
+                        <p className="text-sm text-gray-600 mt-1">
+                            {item.text}
+                        </p>
                     </div>
                 </div>
-                {index < items.length - 1 && (
-                    <div className="hidden lg:block w-px h-25 bg-[#D4AF37]/20 mx-5" />
-                )}
-            </React.Fragment>
-        ))}
+            ))}
+        </div>
     </section>
   )
 }
