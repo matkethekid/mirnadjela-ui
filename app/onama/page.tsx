@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const notoSerif = Noto_Serif({
   subsets: ["latin-ext"],
-  weight: ["400", "600", "800"],
+  weight: ["400"],
   display: "swap"
 });
 
