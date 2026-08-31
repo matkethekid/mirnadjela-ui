@@ -32,6 +32,18 @@ const services: Service[] = [
         title: "pogrebna oprema",
         text: "Širok izbor pogrebne opreme za poslednji ispraćaj.",
         icon: "/icons/flower.svg"
+    },
+    {
+        id: 3,
+        title: "ketering",
+        text: "Organizacija posluženja i keteringa sa punim uvažavanjem običaja.",
+        icon: "/icons/ketering.svg"
+    },
+    {
+        id: 4,
+        title: "ŠMINKANJE POKOJNIKA",
+        text: "Dostojanstvena priprema i estetsko uređenje pokojnika za poslednji ispraćaj.",
+        icon: "/icons/makeup.svg"
     }
 ];
 
