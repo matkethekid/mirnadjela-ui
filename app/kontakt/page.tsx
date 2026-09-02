@@ -98,8 +98,8 @@ const page = () => {
                 <span className="text-[#D4AF37] text-sm font-semibold uppercase tracking-wider">Adresa</span>
               </div>
               <p className="text-white/80 text-sm leading-relaxed">
-                Kralja Petra I 45<br />
-                11000 Beograd, Srbija
+                Jurija Gagarina 70<br />
+                Beograd, Srbija
               </p>
             </div>
             <div className="flex flex-col gap-2 bg-[#071A3B] border-t border-[#D4AF37]/30 lg:border-l p-6 lg:p-8">
@@ -110,7 +110,7 @@ const page = () => {
               <div className="flex flex-col gap-1.5">
                 <p className="text-white/80 text-sm flex items-center gap-2">
                   <span className="text-[#D4AF37]">◆</span>
-                  Mob: +381 692005880
+                  Mob: +381 692005880, +381 63251434
                 </p>
                 <p className="text-white/80 text-sm flex items-center gap-2">
                   <span className="text-[#D4AF37]">◆</span>

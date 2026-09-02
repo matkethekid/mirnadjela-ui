@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import { Noto_Serif } from "next/font/google";
+import Link from "next/link";
 
 const Footer = dynamic(() => import("@/components/Footer"), {
   ssr: true,
@@ -19,6 +20,7 @@ interface Service {
     text: string;
     image: string;
     icon: string;
+    href: string;
 };
 
 const services: Service[] = [
@@ -27,42 +29,48 @@ const services: Service[] = [
         title: "Prevoz pokojnika",
         text: "Organizujemo siguran i dostojanstven prevoz preminulih osoba u zemlji i inostranstvu. Naša specijalizovana vozila ispunjavaju sve standarde, obezbeđujući maksimalnu profesionalnost.",
         image: "/services/prevozpokojnika.jpg",
-        icon: "/icons/truck.svg"
+        icon: "/icons/truck.svg",
+        href: "/pogrebne-usluge/prevoz-pokojnika"
     },
     {
         id: 1,
         title: "Organizacija sahrane",
         text: "Preuzimamo na sebe kompletnu administraciju i organizaciju ceremonije, omogućavajući vam da se u miru oprostite od voljene osobe bez dodatnog stresa.",
         image: "/services/organizacija.jpg",
-        icon: "/icons/church.svg"
+        icon: "/icons/church.svg",
+        href: "/pogrebne-usluge/organizacija-sahrane"
     },
     {
         id: 2,
         title: "Pogrebna oprema",
         text: "Nudimo pažljivo odabrane cvetne aranžmane, suze i vence izrađene od najsvežijeg cveća, sanduke dizajnirane da na dostojanstven način izraze vaše saučešće i poštovanje.",
         image: "/services/oprema.jpg",
-        icon: "/icons/flower.svg"
+        icon: "/icons/flower.svg",
+        href: "/pogrebna-oprema"
     },
     {
         id: 3,
         title: "Administrativna pomoć",
         text: "Pomažemo vam u rešavanju sve neophodne dokumentacije i administrativnih procedura, pružajući vam podršku i rasterećenje u trenucima kada vam je to najpotrebnije.",
         image: "/services/administrativnapomoc.jpg",
-        icon: "/icons/paper.svg"
+        icon: "/icons/paper.svg",
+        href: "/pogrebne-usluge/administrativna-pomoc"
     },
     {
         id: 4,
         title: "PIO Fond naknada",
         text: "Pomažemo vam u ostvarivanju prava na refundaciju troškova sahrane preko PIO fonda, pripremajući svu potrebnu dokumentaciju umesto vas.",
         image: "/services/piofondnaknada.jpg",
-        icon: "/icons/judgebuilding.svg"
+        icon: "/icons/judgebuilding.svg",
+        href: "/pogrebne-usluge/pio-fond-naknada"
     },
     {
         id: 5,
         title: "Ketering",
         text: "Organizujemo dostojanstveno posluženje za pomene i sahrane, uz pažljivo odabran meni i profesionalnu uslugu prilagođenu vašim potrebama.",
         image: "/services/ketering.jpg",
-        icon: "/icons/ketering.svg"
+        icon: "/icons/ketering.svg",
+        href: "/pogrebne-usluge/ketering"
     },
 ];
 
@@ -112,11 +120,12 @@ const page = () => {
                                 {service.text}
                             </p>
                         </div>
-                        <button
+                        <Link
+                            href={service.href}
                             className="mt-auto bg-[#001F5B] px-5 py-1.5 text-[0.9rem] text-white transition hover:bg-[#002e82]"
                         >
                             Saznaj više
-                        </button>
+                        </Link>
                     </div>
                     </div>
                 ))}

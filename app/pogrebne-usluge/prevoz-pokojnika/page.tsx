@@ -42,7 +42,7 @@ const featuredMunicipalities = [
 ];
 
 const otherMunicipalities = [
-  "Palilula", "Sveti Vrac", "Voždovac", "Zvezdara", "Rakovica", "Surčin", "Grocka", "Mladenovac"
+  "Palilula", "Voždovac", "Zvezdara", "Rakovica", "Surčin", "Grocka", "Mladenovac"
 ];
 
 const page = () => {
