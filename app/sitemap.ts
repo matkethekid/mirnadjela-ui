@@ -26,5 +26,41 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.9,
     },
+    {
+      url: 'https://pogrebnomirandjela.rs/pogrebne-usluge/prevoz-pokojnika',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://pogrebnomirandjela.rs/pogrebne-usluge/prevoz-pokojnika/dorcol',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://pogrebnomirandjela.rs/pogrebne-usluge/prevoz-pokojnika/vracar',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://pogrebnomirandjela.rs/pogrebne-usluge/prevoz-pokojnika/zemun',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://pogrebnomirandjela.rs/pogrebne-usluge/prevoz-pokojnika/novi-beograd',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://pogrebnomirandjela.rs/pogrebne-usluge/prevoz-pokojnika/cukarica',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
   ]
 }
