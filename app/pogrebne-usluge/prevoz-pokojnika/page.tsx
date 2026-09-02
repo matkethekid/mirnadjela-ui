@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import dynamic from "next/dynamic";
 import { Noto_Serif } from "next/font/google";
 import { MapPin, Landmark, Building2 } from "lucide-react";
+import Link from "next/link";
 
 const Footer = dynamic(() => import("@/components/Footer"), {
   ssr: true,
@@ -17,27 +18,32 @@ const featuredMunicipalities = [
   {
     title: "Novi Beograd",
     icon: <Building2 size={20} />,
-    description: "Kompletne pogrebne usluge, organizacija sahrana na Novom Beogradu, bežanijskog groblja i prevoza pokojnika sa teritorije opštine Novi Beograd."
+    description: "Kompletne pogrebne usluge, organizacija sahrana na Novom Beogradu, bežanijskog groblja i prevoza pokojnika sa teritorije opštine Novi Beograd.",
+    href: "/pogrebne-usluge/prevoz-pokojnika/novi-beograd"
   },
   {
     title: "Zemun",
     icon: <Landmark size={20} />,
-    description: "Pružamo podršku porodicama u Zemunu, uz obezbeđivanje potrebne dokumentacije, opreme i organizaciju dostojanstvenog ispraćaja."
+    description: "Pružamo podršku porodicama u Zemunu, uz obezbeđivanje potrebne dokumentacije, opreme i organizaciju dostojanstvenog ispraćaja.",
+    href: "/pogrebne-usluge/prevoz-pokojnika/zemun"
   },
   {
     title: "Vračar",
     icon: <MapPin size={20} />,
-    description: "Brza i efikasna organizacija pogrebnih usluga na Vračaru, prilagođena vašim potrebama sa poštovanjem svih običaja i procedura."
+    description: "Brza i efikasna organizacija pogrebnih usluga na Vračaru, prilagođena vašim potrebama sa poštovanjem svih običaja i procedura.",
+    href: "/pogrebne-usluge/prevoz-pokojnika/vracar"
   },
   {
     title: "Dorćol (Stari Grad)",
     icon: <Landmark size={20} />,
-    description: "Delujemo širom teritorije Starog Grada i Dorćola. Obezbeđujemo kompletnu logistiku i prevoz specijalizovanim vozilima."
+    description: "Delujemo širom teritorije Starog Grada i Dorćola. Obezbeđujemo kompletnu logistiku i prevoz specijalizovanim vozilima.",
+    href: "/pogrebne-usluge/prevoz-pokojnika/dorcol"
   },
   {
     title: "Čukarica",
     icon: <MapPin size={20} />,
-    description: "Pokrivamo celokupnu teritoriju opštine Čukarica, uključujući Banovo brdo, Žarkovo, Cerak i okolna naselja. Naš tim je dostupan 24/7."
+    description: "Pokrivamo celokupnu teritoriju opštine Čukarica, uključujući Banovo brdo, Žarkovo, Cerak i okolna naselja. Naš tim je dostupan 24/7.",
+    href: "/pogrebne-usluge/prevoz-pokojnika/cukarica"
   }
 ];
 
@@ -68,9 +74,9 @@ const page = () => {
                 </div>
                 <h3 className="text-xl text-white font-medium mb-4">{item.title}</h3>
                 <p className="text-[#C5C6D2] text-sm leading-relaxed mb-8 flex-1">{item.description}</p>
-                <button className="text-[#C9A227] text-sm font-medium flex items-center gap-2 hover:gap-3 transition-all">
+                <Link href={item.href} className="text-[#C9A227] text-sm font-medium flex items-center gap-2 hover:gap-3 transition-all">
                   Detaljnije <span>→</span>
-                </button>
+                </Link>
               </div>
             ))}
           </div>

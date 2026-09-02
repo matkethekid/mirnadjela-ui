@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
 import Steps from "@/components/Steps";
+import CtaSection from "@/components/CtaSection";
 
 const Footer = dynamic(() => import("@/components/Footer"), {
     ssr: true,
@@ -33,6 +34,7 @@ const page = () => {
                     </Link>
                 </div>
                 <Steps/>
+                <CtaSection/>
             </main>
             <Footer/>
         </div>
