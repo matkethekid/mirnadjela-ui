@@ -21,9 +21,9 @@ const page = () => {
             <Navbar/>
             <main className="w-full flex flex-col flex-1 bg-[#001233] pt-5 pb-5 pl-7 pr-7 lg:pl-25 lg:pr-25">
                 <div className="flex flex-col gap-5">
-                    <h1 className={`${notoSerif.className} text-white text-5xl lg:text-6xl max-w-175 lg:leading-18`}>Polaganje urne Beograd – dostupni 24/7</h1>
+                    <h1 className={`${notoSerif.className} text-white text-5xl lg:text-6xl max-w-175 lg:leading-18`}>Kremacija u Beogradu – dostupni 24/7</h1>
                     <p className="text-[#C5C6D2] max-w-175">
-                        Mir Anđela pruža pouzdane i profesionalne pogrebne usluge, kao i kompletnu organizaciju polaganja urne na teritoriji Beograda. Na raspolaganju smo 24 časa dnevno, 7 dana u nedelji, uz diskretnu i pažljivu organizaciju svih potrebnih aktivnosti u skladu sa željama i potrebama porodice. Usluga polaganja urne obuhvata organizaciju prevoza urne, dogovor sa grobljem i pripremu za polaganje na odabranom mestu, uz poštovanje svih propisanih procedura. Polaganje urne moguće je organizovati na grobljima širom Beograda, uključujući Novo groblje, Bežanijsko groblje, Zemunско groblje, Orlovaču, Lešće i druga gradska groblja. Naš tim pruža kompletnu podršku porodici tokom organizacije, kako bi ceo postupak protekao dostojanstveno, mirno i bez dodatnog opterećenja za najbliže.
+                        Mir Anđela pruža profesionalne pogrebne usluge i kompletnu organizaciju kremacije i polaganja urne u Beogradu. Dostupni smo 24 časa dnevno, 7 dana u nedelji, sa diskretnom i pažljivom organizacijom svih aktivnosti prema željama porodice. Naše usluge uključuju prevoz urne, dogovor sa grobljem i pripremu za polaganje na odabranom mestu, uz poštovanje svih propisanih procedura. Polaganje urne organizujemo na svim beogradskim grobljima — Novo groblje, Bežanijsko groblje, Zemunsko groblje, Orlovača, Lešće i druga gradska groblja. Kontaktirajte nas za kompletnu podršku u organizaciji sahrane koja protekne dostojanstveno i bez dodatnog opterećenja za porodicu.
                     </p>
                     <Link
                         href="tel:+381692005880"
