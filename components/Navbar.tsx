@@ -37,7 +37,15 @@ const Navbar = () => {
             document.body.classList.remove("no-scroll");
         };
     }, [isSidebarOpen]);
-  return (
+
+    const isActive = (path: string) => {
+        if (path === "/") {
+            return pathname === "/";
+        }
+
+        return pathname === path || pathname.startsWith(`${path}/`);
+    };
+    return (
     <nav className="w-full h-23 sticky top-0 left-0 bg-[#001233] flex flex-row justify-between p-5 lg:pl-25 lg:pr-25 items-center z-99">
         <div className="flex flex-row gap-5 items-center justify-center z-100">
             <Image src={"/angel.svg"} width={30} height={30} alt="angel logo" className="w-20 h-20"/>
@@ -45,13 +53,14 @@ const Navbar = () => {
         </div>
         <div className="hidden lg:flex flex-row gap-10">
             <ul className="flex flex-row gap-4 text-white justify-center items-center">
-                {
-                    links.map((link: Link, index: number) => (
-                        <li key={index}>
-                            <Link href={link.path} className={pathname == link.path ? "link" : ""}>{link.name}</Link>
-                        </li>
-                    ))
-                }
+                {links.map((link) => {
+                    const active = isActive(link.path);
+                    return (
+                        <Link key={link.id} href={link.path} className={active ? "link" : ""}>
+                            {link.name}
+                        </Link>
+                    );
+                })}
             </ul>
             <Link href={"/kontakt"} className="flex flex-row gap-2 bg-transparent justify-center items-center pt-1 pb-1 pl-3 pr-3 text-[#D4AF37] border border-[#D4AF37] rounded-[4px]">
                 <Phone/>
