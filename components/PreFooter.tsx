@@ -17,7 +17,7 @@ const items: Item[] = [
     {
         id: 1,
         title: "24H DOSTUPNI",
-        text: "+381 692005880",
+        text: "+381 692005880\n+381 6325143",
         icon: "/icons/phone.svg"
     },
     {
@@ -57,7 +57,7 @@ const PreFooter = () => {
                         <p className="text-[#D4AF37] font-medium">
                             {item.title}
                         </p>
-                        <p className="text-sm wrap-break-word max-w-57.5">
+                        <p className="text-sm wrap-break-word max-w-57.5 whitespace-pre-line">
                             {item.text}
                         </p>
                     </div>
