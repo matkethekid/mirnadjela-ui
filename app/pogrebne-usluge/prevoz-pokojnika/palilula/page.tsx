@@ -21,10 +21,10 @@ const page = () => {
         <Navbar/>
         <main className="w-full flex flex-col flex-1 bg-[#001233] pt-5 pb-5 pl-7 pr-7 lg:pl-25 lg:pr-25">
             <div className="flex flex-col gap-5">
-            <h1 className={`${notoSerif.className} text-white text-5xl lg:text-6xl max-w-175 lg:leading-18`}>Prevoz pokojnika Čukarica – dostupni 24/7</h1>
+            <h1 className={`${notoSerif.className} text-white text-5xl lg:text-6xl max-w-175 lg:leading-18`}>Prevoz pokojnika Palilula – dostupni 24/7</h1>
             <p className="text-[#C5C6D2] max-w-175">
-                Mir Anđela pruža pouzdane i profesionalne pogrebne usluge, kao i organizaciju prevoza pokojnika na teritoriji cele opštine Čukarica. Na raspolaganju smo 24 časa dnevno, 7 dana u nedelji, uz brz izlazak na teren i diskretnu organizaciju prevoza u skladu sa potrebama porodice.
-                Naše usluge dostupne su na području cele Čukarice, uključujući Banovo brdo, Žarkovo, Cerak, Cerak vinograde, Bele vode, Čukaricu, Julino brdo, Golf naselje i okolna naselja. Prevoz pokojnika obavlja se specijalizovanim vozilima koja ispunjavaju sve propisane zakonske standarde, uz mogućnost transporta do kapele, groblja ili druge lokacije prema želji i dogovoru sa porodicom.
+                Mir Anđela pruža pouzdane i profesionalne pogrebne usluge, kao i organizaciju prevoza pokojnika na teritoriji cele opštine Palilula. Na raspolaganju smo 24 časa dnevno, 7 dana u nedelji, uz brz izlazak na teren i diskretnu organizaciju prevoza u skladu sa potrebama porodice.
+                Naše usluge dostupne su na području cele Palilule, uključujući Palilulu, Borču, Krnjaču, Ovču, Padinsku Skelu, Kotež, Višnjicu, Višnjičku Banju, Karaburmu, Rospi Ćupriju, Slance, Veliko Selo i okolna naselja. Prevoz pokojnika obavlja se specijalizovanim vozilima koja ispunjavaju sve propisane zakonske standarde, uz mogućnost transporta do kapele, groblja ili druge lokacije prema želji i dogovoru sa porodicom.
             </p>
             <Link
             href="tel:+381692005880"

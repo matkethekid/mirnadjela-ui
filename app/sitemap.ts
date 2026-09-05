@@ -57,7 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: 'https://pogrebnomirandjela.rs/pogrebne-usluge/prevoz-pokojnika/cukarica',
+      url: 'https://pogrebnomirandjela.rs/pogrebne-usluge/prevoz-pokojnika/palilula',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,

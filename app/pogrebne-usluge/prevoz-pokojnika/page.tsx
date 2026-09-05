@@ -40,15 +40,15 @@ const featuredMunicipalities = [
     href: "/pogrebne-usluge/prevoz-pokojnika/dorcol"
   },
   {
-    title: "Čukarica",
+    title: "Palilula",
     icon: <MapPin size={20} />,
-    description: "Pokrivamo celokupnu teritoriju opštine Čukarica, uključujući Banovo brdo, Žarkovo, Cerak i okolna naselja. Naš tim je dostupan 24/7.",
-    href: "/pogrebne-usluge/prevoz-pokojnika/cukarica"
+    description: "Pokrivamo celokupnu teritoriju opštine Palilula, uključujući Borču, Krnjaču, Ovču, Višnjicu, Karaburmu i okolna naselja. Naš tim je dostupan 24/7.",
+    href: "/pogrebne-usluge/prevoz-pokojnika/palilula"
   }
 ];
 
 const otherMunicipalities = [
-  "Palilula", "Voždovac", "Zvezdara", "Rakovica", "Surčin", "Grocka", "Mladenovac"
+  "Voždovac", "Zvezdara", "Rakovica", "Surčin", "Grocka", "Mladenovac"
 ];
 
 const page = () => {
