@@ -86,5 +86,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.9,
     },
+    {
+      url: 'https://pogrebnomirandjela.rs/pogrebne-usluge/pio-fond-naknada',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://pogrebnomirandjela.rs/pogrebne-usluge/administrativna-pomoc',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://pogrebnomirandjela.rs/pogrebne-usluge/ketering',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
   ]
 };
