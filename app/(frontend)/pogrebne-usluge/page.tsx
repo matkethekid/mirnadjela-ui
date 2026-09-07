@@ -27,7 +27,7 @@ const services: Service[] = [
     {
         id: 0,
         title: "Prevoz pokojnika",
-        text: "Organizujemo siguran i dostojanstven prevoz preminulih osoba u zemlji i inostranstvu. Naša specijalizovana vozila ispunjavaju sve standarde, obezbeđujući maksimalnu profesionalnost.",
+        text: "Dostojanstven i siguran prevoz pokojnika, uz poštovanje prema porodici i preminuloj osobi, sa teritorije Beograda i drugih gradova u Srbiji. Organizujemo kompletan prevoz i potrebnu dokumentaciju, uz poštovanje svih propisanih procedura i dostojanstvo koje svaki čovek zaslužuje.",
         image: "/services/prevozpokojnika.jpg",
         icon: "/icons/truck.svg",
         href: "/pogrebne-usluge/prevoz-pokojnika"
@@ -59,7 +59,7 @@ const services: Service[] = [
     {
         id: 4,
         title: "PIO Fond naknada",
-        text: "Pomažemo vam u ostvarivanju prava na refundaciju troškova sahrane preko PIO fonda, pripremajući svu potrebnu dokumentaciju umesto vas.",
+        text: "Pružamo kompletnu pomoć oko ostvarivanja prava u PIO fondu nakon smrti člana porodice. Pomažemo u prikupljanju i predaji potrebne dokumentacije, kao i u pokretanju postupka za ostvarivanje porodične penzije i drugih prava.",
         image: "/services/piofondnaknada.jpg",
         icon: "/icons/judgebuilding.svg",
         href: "/pogrebne-usluge/pio-fond-naknada"
