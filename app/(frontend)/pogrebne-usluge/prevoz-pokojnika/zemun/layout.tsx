@@ -1,5 +1,5 @@
 ﻿import React from "react";
-import { createOpstinaMetadata } from "@/app/lib/metadata";
+import { createOpstinaMetadata } from "@/app/(frontend)/lib/metadata";
 
 export const metadata = createOpstinaMetadata("Zemun");
 
