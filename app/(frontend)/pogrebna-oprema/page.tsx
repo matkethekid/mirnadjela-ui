@@ -32,7 +32,7 @@ async function Page() {
         collection: "product",
         depth: 1,
         pagination: false,
-        limit: 100,
+        limit: 1000,
     });
     return (
         <div className="w-full min-h-screen flex flex-col items-center mx-auto">
