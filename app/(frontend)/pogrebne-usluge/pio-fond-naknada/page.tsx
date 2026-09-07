@@ -1,7 +1,6 @@
 ﻿import { Noto_Serif } from "next/font/google";
 import dynamic from "next/dynamic";
 import Navbar from "@/components/Navbar";
-import Link from "next/link";
 import Steps from "@/components/Steps";
 import CtaSection from "@/components/CtaSection";
 
@@ -35,12 +34,6 @@ const page = () => {
                         informacije i podršku u vezi sa PIO fondom i naknadom pogrebnih
                         troškova.
                     </p>
-                    <Link
-                        href="tel:+381692005880"
-                        className="flex flex-row gap-2 py-3 px-6 max-w-50 bg-[#D4AF37] items-center justify-center text-lg font-semibold text-[#001233] rounded-[4px] whitespace-nowrap hover:bg-[#c49b2e] transition-colors"
-                    >
-                        +381 692005880
-                    </Link>
                 </div>
                 <Steps/>
                 <CtaSection/>

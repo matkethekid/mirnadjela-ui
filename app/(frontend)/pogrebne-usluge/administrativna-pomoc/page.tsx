@@ -1,7 +1,6 @@
 ﻿import { Noto_Serif } from "next/font/google";
 import dynamic from "next/dynamic";
 import Navbar from "@/components/Navbar";
-import Link from "next/link";
 import Steps from "@/components/Steps";
 import CtaSection from "@/components/CtaSection";
 
@@ -37,12 +36,6 @@ const page = () => {
                         administrativnih obaveza, uz diskretan i profesionalan pristup.
                         Dostupni smo 24 časa dnevno, 7 dana u nedelji.
                     </p>
-                    <Link
-                        href="tel:+381692005880"
-                        className="flex flex-row gap-2 py-3 px-6 max-w-50 bg-[#D4AF37] items-center justify-center text-lg font-semibold text-[#001233] rounded-[4px] whitespace-nowrap hover:bg-[#c49b2e] transition-colors"
-                    >
-                        +381 692005880
-                    </Link>
                 </div>
                 <Steps />
                 <CtaSection />
