@@ -4,18 +4,11 @@ import dynamic from "next/dynamic";
 import ProductCard from "@/components/ProductCard";
 import { getPayload } from "payload";
 import config from "@payload-config";
-import { Media } from "@/payload-types";
+import { unstable_noStore as noStore } from 'next/cache';
 
 const Footer = dynamic(() => import("@/components/Footer"), {
     ssr: true,
 });
-
-interface Product {
-    id: number;
-    image: number | Media;
-    name: string;
-    description: string;
-}
 
 // const products: Product[] = [
 //     { id: 1, name: "Urnja Premium", description: "Elegantna i trajna urnja izrađena od najkvalitetnijih materijala.", image: "/api/media/file/prvaverztreca.png" },
@@ -29,6 +22,8 @@ interface Product {
 // ];
 
 async function Page() {
+    noStore();
+
     const payload = await getPayload({
         config,
     });
@@ -36,9 +31,9 @@ async function Page() {
     const { docs: products } = await payload.find({
         collection: "product",
         depth: 1,
+        pagination: false,
+        limit: 100,
     });
-
-    console.log(products);
     return (
         <div className="w-full min-h-screen flex flex-col items-center mx-auto">
             <Navbar/>
