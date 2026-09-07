@@ -17,7 +17,7 @@ const items: Item[] = [
     {
         id: 1,
         title: "24H DOSTUPNI",
-        text: "+381 692005880\n+381 6325143",
+        text: "+381 692005880\n+381 63251434",
         icon: "/icons/phone.svg"
     },
     {
