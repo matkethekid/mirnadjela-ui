@@ -24,15 +24,7 @@ const page = () => {
                         PIO fond naknada – pomoć oko ostvarivanja prava
                     </h1>
                     <p className="text-[#C5C6D2] max-w-175">
-                        Mir Anđela pruža pomoć porodicama u vezi sa ostvarivanjem prava na
-                        naknadu pogrebnih troškova preko PIO fonda. Pomažemo vam da
-                        prikupite potrebnu dokumentaciju i sprovedete postupak na
-                        jednostavan i organizovan način, kako biste u teškim trenucima
-                        imali što manje administrativnih obaveza. Naš tim vam pruža
-                        informacije o potrebnim dokumentima, postupku podnošenja zahteva
-                        i koracima koje je potrebno preduzeti. Kontaktirajte nas za
-                        informacije i podršku u vezi sa PIO fondom i naknadom pogrebnih
-                        troškova.
+                        Pružamo kompletnu pomoć oko ostvarivanja prava u PIO fondu nakon smrti člana porodice. Pomažemo u prikupljanju i predaji potrebne dokumentacije, kao i u pokretanju postupka za ostvarivanje porodične penzije i drugih prava.
                     </p>
                 </div>
                 <Steps/>
