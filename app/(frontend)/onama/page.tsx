@@ -22,7 +22,7 @@ const page = () => {
         <div className="w-80 h-px bg-linear-100 from-[#001233] via-[#D4AF37] to-[#001233]"></div>
         <p className="text-center lg:max-w-137.5 text-white">
           Mir Anđela pruža oslonac porodicama u najtežim trenucima.
-          Naša misija je da svaku uslugu obavimo sa dubokim poštovanjem, profesionalizmom i empatijom, čuvajući sećanje na vašenajmilije sa dostojanstvom koje zaslužuju.
+          Naša misija je da svaku uslugu obavimo sa dubokim poštovanjem, profesionalizmom i empatijom, čuvajući sećanje na vaše najmilije sa dostojanstvom koje zaslužuju.
         </p>
         <div className="flex flex-col lg:flex-row gap-2 items-stretch w-full flex-1 max-w-7xl">
           <div className="w-full lg:w-2/3 flex flex-1 flex-col gap-5 p-10 bg-[#071A3B] relative">
