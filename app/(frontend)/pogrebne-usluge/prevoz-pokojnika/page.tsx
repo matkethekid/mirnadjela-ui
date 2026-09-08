@@ -48,7 +48,7 @@ const featuredMunicipalities = [
 ];
 
 const otherMunicipalities = [
-  "Voždovac", "Zvezdara", "Rakovica", "Surčin", "Grocka", "Mladenovac"
+  "Čukarica", "Voždovac", "Zvezdara", "Rakovica", "Surčin", "Grocka", "Mladenovac"
 ];
 
 const page = () => {
@@ -61,7 +61,7 @@ const page = () => {
             Pogrebne usluge i prevoz pokojnika po opštinama Beograda
           </h1>
           <p className="max-w-150 text-center text-[#C5C6D2] mt-6 text-lg leading-relaxed">
-            Pružamo dostojanstvene, profesionalne i pravovremene usluge organizacije sahrana, prevoza pokojnika i celokupne pogrebne opreme na teritoriji celog Beograda. Naš tim je dostupan 24/7 kako bi vam pružio podršku u najtežim trenucima.
+            Dostojanstven i siguran prevoz pokojnika, uz poštovanje prema porodici i preminuloj osobi, sa teritorije Beograda i drugih gradova u Srbiji. Organizujemo kompletan prevoz i potrebnu dokumentaciju, uz poštovanje svih propisanih procedura i dostojanstvo koje svaki čovek zaslužuje.
           </p>
         </div>
         <div className="w-full max-w-6xl text-left mb-20">
