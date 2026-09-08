@@ -69,6 +69,13 @@ const Navbar = () => {
                     <p className="text-sm">+381 692005880</p>
                 </div>
             </Link>
+            {/*<Link href={"/kontakt"} className="flex flex-row gap-2 bg-transparent justify-center items-center pt-1 pb-1 pl-3 pr-3 text-[#D4AF37] border border-[#D4AF37] rounded-[4px]">*/}
+            {/*    <Phone/>*/}
+            {/*    <div className="flex flex-col">*/}
+            {/*        <p className="text-sm">24H DOSTUPNI</p>*/}
+            {/*        <p className="text-sm">+381 63251434</p>*/}
+            {/*    </div>*/}
+            {/*</Link>*/}
         </div>
         <button onClick={() => setIsSidebarOpen(prevState => !prevState)} className="flex lg:hidden justify-center items-center text-white z-100">
             {
@@ -90,6 +97,13 @@ const Navbar = () => {
                         <div className="flex flex-col">
                             <p className="text-sm">24H DOSTUPNI</p>
                             <p className="text-sm">+381 692005880</p>
+                        </div>
+                    </Link>
+                    <Link href={"/kontakt"} className="flex flex-row gap-2 bg-transparent justify-center items-center pt-1 pb-1 pl-3 pr-3 text-[#D4AF37] border border-[#D4AF37] rounded-[4px]">
+                        <Phone/>
+                        <div className="flex flex-col">
+                            <p className="text-sm">24H DOSTUPNI</p>
+                            <p className="text-sm">+381 63251434</p>
                         </div>
                     </Link>
                 </li>
