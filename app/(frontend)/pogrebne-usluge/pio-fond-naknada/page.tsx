@@ -24,7 +24,7 @@ const page = () => {
                         PIO fond naknada – pomoć oko ostvarivanja prava
                     </h1>
                     <p className="text-[#C5C6D2] max-w-175">
-                        Pružamo kompletnu pomoć oko ostvarivanja prava u PIO fondu nakon smrti člana porodice. Pomažemo u prikupljanju i predaji potrebne dokumentacije, kao i u pokretanju postupka za ostvarivanje porodične penzije i drugih prava.
+                        Mir Andjela pribavlja kompletnu dokumentaciju iz opštine, bolnice, ambasade. Pored toga pripremamo i kompletnu dokumentaciju neophodnu za refundaciju troškova ukoliko je preminula osoba penzioner i odmah umanjujemo iznos koji priznaje PIO fond na osnovu penzionog čeka.
                     </p>
                 </div>
                 <Steps/>
