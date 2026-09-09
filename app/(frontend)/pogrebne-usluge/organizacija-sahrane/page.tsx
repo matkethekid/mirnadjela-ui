@@ -24,22 +24,22 @@ interface Service {
 }
 
 const services: Service[] = [
+    // {
+    //     id: 0,
+    //     title: "Kremacija",
+    //     icon: <Sparkle size={20} />,
+    //     description: "Kompletna organizacija kremacije u Beogradu uz pomoć oko potrebne dokumentacije, prevoza pokojnika i koordinacije sa krematorijumom. Pružamo porodici profesionalnu i dostojanstvenu podršku tokom celog procesa.",
+    //     href: "/pogrebne-usluge/kremacija"
+    // },
     {
         id: 0,
-        title: "Kremacija",
+        title: "Kremacija i polaganje urne",
         icon: <Sparkle size={20} />,
-        description: "Kompletna organizacija kremacije u Beogradu uz pomoć oko potrebne dokumentacije, prevoza pokojnika i koordinacije sa krematorijumom. Pružamo porodici profesionalnu i dostojanstvenu podršku tokom celog procesa.",
-        href: "/pogrebne-usluge/kremacija"
+        description: "Organizujemo polaganje urne u Beogradu uz obezbeđivanje potrebne dokumentacije, pogrebne opreme i koordinaciju svih detalja. Naš tim pruža pouzdanu podršku porodici i organizuje dostojanstven ispraćaj.",
+        href: "/pogrebne-usluge/kremacija-polaganje-urne"
     },
     {
         id: 1,
-        title: "Polaganje urne",
-        icon: <Sparkle size={20} />,
-        description: "Organizujemo polaganje urne u Beogradu uz obezbeđivanje potrebne dokumentacije, pogrebne opreme i koordinaciju svih detalja. Naš tim pruža pouzdanu podršku porodici i organizuje dostojanstven ispraćaj.",
-        href: "/pogrebne-usluge/polaganje-urne"
-    },
-    {
-        id: 2,
         title: "Sahrana",
         icon: <Sparkle size={20} />,
         description: "Kompletna organizacija sahrane u Beogradu, uključujući prevoz pokojnika, pripremu dokumentacije, pogrebnu opremu i koordinaciju svih neophodnih usluga. Dostupni smo porodicama 24/7 uz profesionalan i dostojanstven pristup.",

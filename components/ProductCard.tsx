@@ -25,6 +25,7 @@ function ProductCard({ product }: { product: Product }) {
                     src={product.image.url || ""}
                     alt={product.image.alt || product.title || ""}
                     fill
+                    unoptimized
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                     className={`object-cover transition-transform duration-700 ease-in-out ${
                         isZoomed

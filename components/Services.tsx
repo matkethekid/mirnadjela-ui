@@ -35,7 +35,7 @@ const services: Service[] = [
     },
     {
         id: 3,
-        title: "ketering",
+        title: "Posluženje na grobnom mestu",
         text: "Organizacija posluženja i keteringa sa punim uvažavanjem običaja.",
         icon: "/icons/ketering.svg"
     },

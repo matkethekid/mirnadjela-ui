@@ -48,20 +48,30 @@ const featuredMunicipalities = [
 ];
 
 const otherMunicipalities = [
-  "Voždovac", "Zvezdara", "Rakovica", "Surčin", "Grocka", "Mladenovac"
+  "Čukarica", "Voždovac", "Zvezdara", "Rakovica", "Surčin", "Grocka", "Mladenovac"
 ];
 
 const page = () => {
   return (
     <div className="w-full min-h-screen flex flex-col items-center mx-auto">
       <Navbar/>
-      <main className="w-full flex flex-col flex-1 bg-[#001233] justify-center items-center text-center p-5 pb-20">
-        <div className="flex flex-col items-center mb-20">
+      <main className="w-full flex flex-col flex-1 bg-[#001233] justify-center items-start text-start pt-5 pb-20 pl-5 pr-5 lg:pl-30 lg:pr-30">
+        <div className="flex flex-col items-start mb-20">
           <h1 className={`text-4xl lg:text-6xl text-white max-w-200 leading-10 lg:leading-18 ${notoSerif.className}`}>
             Pogrebne usluge i prevoz pokojnika po opštinama Beograda
           </h1>
-          <p className="max-w-150 text-center text-[#C5C6D2] mt-6 text-lg leading-relaxed">
-            Pružamo dostojanstvene, profesionalne i pravovremene usluge organizacije sahrana, prevoza pokojnika i celokupne pogrebne opreme na teritoriji celog Beograda. Naš tim je dostupan 24/7 kako bi vam pružio podršku u najtežim trenucima.
+          <p className="max-w-150 text-start text-[#C5C6D2] mt-6 text-lg leading-relaxed">
+            Dostojanstven i siguran prevoz, uz poštovanje prema porodici i preminuloj osobi.
+            U najtežim trenucima važno je imati nekoga kome možete da verujete. MIR ANĐELA obezbeđuje profesionalan i pažljiv prevoz pokojnika, uz poštovanje svih propisanih procedura i dostojanstvo koje svaki čovek zaslužuje.
+            Organizujemo prevoz pokojnika:
+            - od mesta smrti do odgovarajuće ustanove ili mesta sahrane
+            - sa teritorije Beograda i drugih gradova u Srbiji
+            - po dogovoru i prema potrebama porodice
+            - uz kompletnu organizaciju i potrebnu dokumentaciju
+            Naš tim vodi računa o svakom detalju kako bi porodica u najtežem trenutku imala što manje briga.
+            Sa pažnjom. Sa poštovanjem. Sa dostojanstvom.
+            MIR ANĐELA
+            Tu smo kada je najteže.
           </p>
         </div>
         <div className="w-full max-w-6xl text-left mb-20">

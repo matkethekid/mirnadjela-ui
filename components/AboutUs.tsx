@@ -17,7 +17,7 @@ const AboutUs = () => {
                 MIR ANĐELA pruža kompletnu i profesionalnu podršku porodici, uz dostojanstvenu organizaciju poslednjeg ispraćaja i posebnu pažnju prema svakom detalju.
             </p>
             <p className="text-white max-w-125">
-                Jer svaki čovek zaslužuje dostojanstven oproštaj,a svaka porodica zaslužuje mir i sigurnost kada joj je najpotrebnije. 
+                Svaki čovek zaslužuje dostojanstven oproštaj,a svaka porodica zaslužuje mir i sigurnost kada joj je najpotrebnije.
                 <br/> Sa poštovanjem prema životu.
                 <br/>Sa ljubavlju prema uspomeni.Sa mirom za one koji ostaju.
             </p>

@@ -43,6 +43,13 @@ const page = () => {
             <Phone size={18} />
             +381 692005880
           </Link>
+          <Link
+            href="tel:+381692005880"
+            className="flex flex-row gap-2 py-3 px-6 bg-[#D4AF37] items-center justify-center text-lg font-semibold text-[#001233] rounded-[4px] whitespace-nowrap hover:bg-[#c49b2e] transition-colors"
+          >
+            <Phone size={18} />
+            +381 63251434
+          </Link>
         </div>
         <div className="w-full max-w-4xl flex flex-col lg:flex-row gap-0 rounded-[4px] overflow-hidden border border-[#D4AF37]/30">
           <div className="w-full lg:w-3/5 flex flex-col gap-5 bg-[#071A3B] p-8 lg:p-10">

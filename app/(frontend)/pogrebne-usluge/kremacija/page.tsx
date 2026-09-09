@@ -25,12 +25,6 @@ const page = () => {
                     <p className="text-[#C5C6D2] max-w-175">
                         Mir Anđela pruža profesionalne pogrebne usluge i kompletnu organizaciju kremacije i polaganja urne u Beogradu. Dostupni smo 24 časa dnevno, 7 dana u nedelji, sa diskretnom i pažljivom organizacijom svih aktivnosti prema željama porodice. Naše usluge uključuju prevoz urne, dogovor sa grobljem i pripremu za polaganje na odabranom mestu, uz poštovanje svih propisanih procedura. Polaganje urne organizujemo na svim beogradskim grobljima — Novo groblje, Bežanijsko groblje, Zemunsko groblje, Orlovača, Lešće i druga gradska groblja. Kontaktirajte nas za kompletnu podršku u organizaciji sahrane koja protekne dostojanstveno i bez dodatnog opterećenja za porodicu.
                     </p>
-                    <Link
-                        href="tel:+381692005880"
-                        className="flex flex-row gap-2 py-3 px-6 max-w-50 bg-[#D4AF37] items-center justify-center text-lg font-semibold text-[#001233] rounded-[4px] whitespace-nowrap hover:bg-[#c49b2e] transition-colors"
-                    >
-                        +381 692005880
-                    </Link>
                 </div>
                 <Steps/>
                 <CtaSection/>

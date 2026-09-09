@@ -27,12 +27,6 @@ const page = () => {
                     <p className="text-[#C5C6D2] max-w-175">
                         Pogrebno preduzeće Mir Anđela pruža kompletnu organizaciju sahrane u Beogradu, dostupnu 24 sata dnevno, 7 dana u nedelji. Naš tim preuzima sve ključne obaveze — od prvog kontakta sa porodicom, preko koordinacije sa zdravstvenim ustanovama, grobljem i matičnom službom, do samog čina sahrane i ispraćaja. Usluga organizacije sahrane obuhvata prevoz pokojnika, obezbeđivanje pogrebne opreme, pripremu i vođenje potrebne dokumentacije, zakazivanje termina sahrane, organizaciju verskih obreda i kompletnu logistiku na dan ispraćaja. Organizaciju sahrane vršimo na svim beogradskim grobljima — Novo groblje, Bežanijsko groblje, Zemunsko groblje, Orlovača, Lešće, kao i na grobljima u okolnim opštinama. Usluga je dostupna na teritoriji svih beogradskih opština — Novi Beograd, Zemun, Vračar, Čukarica, Palilula, Zvezdara, Voždovac, Rakovica, Savski Venac i druge. Uz puno poštovanje prema pokojniku i porodici, garantujemo da ceo proces protekne dostojanstveno, mirno i bez dodatnog opterećenja za najbliže. Kontaktirajte nas u svakom trenutku — naš tim je tu da vam olakša najteže trenutke.
                     </p>
-                    <Link
-                        href="tel:+381692005880"
-                        className="flex flex-row gap-2 py-3 px-6 max-w-50 bg-[#D4AF37] items-center justify-center text-lg font-semibold text-[#001233] rounded-[4px] whitespace-nowrap hover:bg-[#c49b2e] transition-colors"
-                    >
-                        +381 692005880
-                    </Link>
                 </div>
                 <Steps/>
                 <CtaSection/>

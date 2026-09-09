@@ -9,7 +9,7 @@ const notoSerif = Noto_Serif({
 
 function CtaSection() {
     return (
-        <section className="w-full lg:max-w-315 mx-auto p-10 flex flex-col lg:flex-row justify-between items-center bg-[#071A3B] rounded-lg">
+        <section className="w-full lg:max-w-315 mx-auto p-10 flex flex-col lg:flex-row justify-between items-start lg:items-center bg-[#071A3B] rounded-lg gap-5">
             <div className="flex flex-col gap-3">
                 <p className={`${notoSerif.className} text-4xl text-[#D4AF37]`}>Dostupni kada je najvažnije</p>
                 <p className={`${notoSerif.className} text-white max-w-175`}>Gde god da se nalazite, naš tim je spreman da odgovori na vaš poziv i pruži potrebnu podršku. Obezbeđujemo kompletnu dokumentaciju i dostojanstven prevoz pokojnika, uz poštovanje, diskreciju i najviše standarde profesionalnosti.</p>

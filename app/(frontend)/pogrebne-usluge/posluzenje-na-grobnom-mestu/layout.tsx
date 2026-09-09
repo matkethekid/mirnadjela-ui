@@ -1,11 +1,11 @@
 ﻿import type { Metadata } from "next";
 
 const siteUrl = "https://pogrebnomirandjela.rs";
-const pageUrl = `${siteUrl}/pogrebne-usluge/ketering`;
+const pageUrl = `${siteUrl}/pogrebne-usluge/posluzenje-na-grobnom-mestu`;
 
 export const metadata: Metadata = {
     metadataBase: new URL(siteUrl),
-    title: "Ketering za sahrane i daće Beograd | Pogrebne usluge Mir Anđela",
+    title: "Posluženje na grobnom mestu u Beogradu | Pogrebne usluge Mir Anđela",
     description:
         "Ketering za sahrane, daće i parastose u Beogradu. Organizacija hrane i posluženja prema potrebama porodice, uz profesionalnu i diskretnu uslugu.",
     keywords: [
@@ -42,15 +42,13 @@ export const metadata: Metadata = {
         locale: "sr_RS",
         url: pageUrl,
         siteName: "Mir Anđela",
-        title: "Ketering za sahrane i daće u Beogradu | Mir Anđela",
-        description:
-            "Organizacija keteringa za sahrane, daće i parastose u Beogradu. Diskretna i profesionalna usluga prema potrebama porodice.",
+        title: "Posluženje na grobnom mestu u Beogradu | Mir Anđela",
+        description: "Organizacija keteringa za sahrane, daće i parastose u Beogradu. Diskretna i profesionalna usluga prema potrebama porodice.",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Ketering za sahrane i daće – Mir Anđela",
-        description:
-            "Ketering za sahrane, daće i parastose u Beogradu. Organizacija hrane i posluženja prema potrebama porodice.",
+        title: "Posluženje na grobnom mestu u Beogradu – Mir Anđela",
+        description: "Ketering za sahrane, daće i parastose u Beogradu. Organizacija hrane i posluženja prema potrebama porodice.",
         images: ["/og-image.jpg"],
     },
     robots: {
