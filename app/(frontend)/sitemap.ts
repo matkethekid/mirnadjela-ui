@@ -68,14 +68,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.9,
     },
+    // {
+    //   url: 'https://pogrebnomirandjela.rs/pogrebne-usluge/kremacija',
+    //   lastModified: new Date(),
+    //   changeFrequency: 'weekly',
+    //   priority: 0.9,
+    // },
     {
-      url: 'https://pogrebnomirandjela.rs/pogrebne-usluge/kremacija',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.9,
-    },
-    {
-      url: 'https://pogrebnomirandjela.rs/pogrebne-usluge/polaganje-urne',
+      url: 'https://pogrebnomirandjela.rs/pogrebne-usluge/kremacija-polaganje-urne',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
@@ -99,7 +99,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: 'https://pogrebnomirandjela.rs/pogrebne-usluge/ketering',
+      url: 'https://pogrebnomirandjela.rs/pogrebne-usluge/posluzenje-na-grobnom-mestu',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
