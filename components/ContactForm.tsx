@@ -104,7 +104,7 @@ function ContactForm() {
                 <button
                     type="button"
                     className="w-fit py-3 px-6 bg-[#D4AF37] text-[#001233] font-semibold rounded-[4px] hover:bg-[#c49b2e] transition-colors"
-                    onClick={(e) => submitEmail(e)}
+                    onClick={(e: any) => submitEmail(e)}
                 >
                     Pošalji Poruku
                 </button>
@@ -138,14 +138,13 @@ function ContactForm() {
                 </div>
                 <div className="flex-1 min-h-48 border-t border-[#D4AF37]/30 lg:border-l overflow-hidden">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.5!2d20.4589!3d44.8183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zS3JhbGphIFBldHJhIEkgNDUsIEJlb2dyYWQ!5e0!3m2!1ssr!2srs!4v1"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.8747957986684!2d20.3801943!3d44.8037402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6f74dc013b35%3A0x17cb2e3897786f0f!2sMir%20An%C4%91ela%20-%20Pogrebne%20usluge%20Beograd!5e0!3m2!1ssr!2srs!4v1788971783734!5m2!1ssr!2srs"
                         width="100%"
                         height="100%"
-                        style={{ border: 0, minHeight: "192px", filter: "grayscale(30%) invert(90%) hue-rotate(180deg)" }}
+                        style={{border: 0, minHeight: "192px", filter: "grayscale(30%) invert(90%) hue-rotate(180deg)"}}
                         allowFullScreen
                         loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"
-                        title="Lokacija Mir Anđela"
+                        referrerPolicy="strict-origin-when-cross-origin"
                     />
                 </div>
             </div>
