@@ -66,11 +66,11 @@ const services: Service[] = [
     },
     {
         id: 5,
-        title: "Ketering",
+        title: "Posluženje na grobnom mestu",
         text: "Organizujemo dostojanstveno posluženje za pomene i sahrane, uz pažljivo odabran meni i profesionalnu uslugu prilagođenu vašim potrebama.",
-        image: "/services/ketering.jpg",
+        image: "/services/ketering2.jpg",
         icon: "/icons/ketering.svg",
-        href: "/pogrebne-usluge/ketering"
+        href: "/pogrebne-usluge/posluzenje-na-grobnom-mestu"
     },
 ];
 
