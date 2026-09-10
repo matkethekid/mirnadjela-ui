@@ -127,6 +127,7 @@ export interface Product {
   id: number;
   title?: string | null;
   image: number | Media;
+  category: string;
   updatedAt: string;
   createdAt: string;
 }
@@ -259,6 +260,7 @@ export interface PayloadMigration {
 export interface ProductSelect<T extends boolean = true> {
   title?: T;
   image?: T;
+  category?: T;
   updatedAt?: T;
   createdAt?: T;
 }
