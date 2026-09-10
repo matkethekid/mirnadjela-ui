@@ -24,7 +24,7 @@ async function Page() {
         <div className="w-full min-h-screen flex flex-col items-center mx-auto">
             <Navbar/>
             <main className="w-full flex-1 bg-[#001233] py-10">
-                <div className="w-full max-w-6xl mx-auto px-4 flex flex-col h-[600px] gap-2">
+                <div className="w-full max-w-6xl mx-auto px-4 flex flex-col lg:h-[600px] gap-2">
                     {/*<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">*/}
                     {/*    {products.map((product) => (*/}
                     {/*        <ProductCard*/}
@@ -33,7 +33,7 @@ async function Page() {
                     {/*        />*/}
                     {/*    ))}*/}
                     {/*</div>*/}
-                    <div className="flex flex-col lg:flex-row gap-2 w-full h-1/2">
+                    <div className="flex flex-col lg:flex-row gap-2 w-full lg:h-1/2">
                         <div className="h-full flex flex-1">
                             <div className="bg-[#0A1E42]/70 border border-[#1E3A6B] p-8 rounded-[4px] flex flex-1 flex-col items-start hover:bg-[#0A1E42] transition-colors duration-300">
                                 <div className="w-12 h-12 rounded-full border border-[#C9A227] flex items-center justify-center text-[#C9A227] mb-6">
