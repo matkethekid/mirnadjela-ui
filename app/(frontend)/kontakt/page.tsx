@@ -43,7 +43,7 @@ const page = () => {
             +381 692005880
           </Link>
           <Link
-            href="tel:+381692005880"
+            href="tel:+38163251434"
             className="flex flex-row gap-2 py-3 px-6 bg-[#D4AF37] items-center justify-center text-lg font-semibold text-[#001233] rounded-[4px] whitespace-nowrap hover:bg-[#c49b2e] transition-colors"
           >
             <Phone size={18} />
