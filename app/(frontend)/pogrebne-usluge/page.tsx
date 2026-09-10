@@ -36,7 +36,7 @@ const services: Service[] = [
         id: 1,
         title: "Organizacija sahrane",
         text: "Preuzimamo na sebe kompletnu administraciju i organizaciju ceremonije, omogućavajući vam da se u miru oprostite od voljene osobe bez dodatnog stresa.",
-        image: "/services/organizacija.jpg",
+        image: "/services/pravoslavnacrkva.jpg",
         icon: "/icons/church.svg",
         href: "/pogrebne-usluge/organizacija-sahrane"
     },
