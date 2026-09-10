@@ -41,7 +41,7 @@ async function Page() {
             <Navbar/>
             <main className="w-full flex-1 bg-[#001233] py-10">
                 <div className="w-full max-w-6xl mx-auto px-4">
-                    <h1 className={`text-4xl text-[#D4AF37] ${notoSerif.className}`}>Suze i venci</h1>
+                    <h1 className={`text-4xl text-[#D4AF37] ${notoSerif.className} mb-10`}>Suze i venci</h1>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {products.map((product) => (
                             <FlowerProduct
