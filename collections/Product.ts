@@ -13,5 +13,10 @@ export const Product: CollectionConfig = {
             relationTo: "media",
             required: true,
         },
+        {
+            name: "category",
+            type: "text",
+            required: true,
+        }
     ]
 };
