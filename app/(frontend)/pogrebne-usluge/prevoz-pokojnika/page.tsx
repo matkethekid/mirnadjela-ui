@@ -75,6 +75,15 @@ const page = () => {
           </p>
         </div>
         <div className="w-full max-w-6xl text-left mb-20">
+          <div className="border-l-2 border-[#C9A227] pl-6 lg:pl-8">
+            <h2 className={`text-3xl lg:text-4xl text-white mb-6 ${notoSerif.className}`}> Prevoz pokojnika u inostranstvo</h2>
+            <p className="max-w-4xl text-[#C5C6D2] text-base lg:text-lg leading-relaxed"> Organizujemo i prevoz pokojnika iz Srbije u inostranstvo, kao i prevoz pokojnika iz inostranstva u Srbiju. Prevoz se obavlja specijalizovanim vozilima, uz poštovanje svih propisanih procedura i uslova za međunarodni transport. Pomažemo porodici u organizaciji celokupnog procesa, uključujući potrebnu dokumentaciju, komunikaciju sa nadležnim institucijama i organizaciju prevoza do dogovorene destinacije.
+              <br/><br />
+              Međunarodni prevoz pokojnika organizujemo prema potrebama porodice, bez obzira na zemlju polaska ili odredišta. Naš tim vodi računa o svakom detalju kako bi postupak protekao što jednostavnije i dostojanstvenije za porodicu.
+            </p>
+          </div>
+        </div>
+        <div className="w-full max-w-6xl text-left mb-20">
           <h2 className={`text-3xl lg:text-4xl text-white mb-10 ${notoSerif.className}`}>Istaknute Opštine</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {featuredMunicipalities.map((item, index) => (
