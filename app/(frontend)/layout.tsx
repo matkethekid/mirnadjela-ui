@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Source_Serif_4 } from "next/font/google";
 import "./globals.css";
+import CookieBanner from "@/components/CookieBanner";
 
 const siteUrl = "https://pogrebnomirandjela.rs";
 
@@ -136,7 +137,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         {children}
-
+        <CookieBanner/>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
